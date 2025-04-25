@@ -1,0 +1,33 @@
+{
+  "name": "fork_1.1.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@twa-dev/sdk": "^6.9.1",
+    "@vkontakte/vkui": "^5.1.0",
+    "firebase": "^11.6.1",
+    "pinia": "^2.1.7",
+    "socket.io-client": "^4.7.4",
+    "vite-plugin-vue-devtools": "^7.7.5",
+    "vue": "^3.5.10",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.2.10"
+  }
+}
